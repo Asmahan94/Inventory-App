@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="empty_list_hint">Start adding some items to your inventory</string>
+    <string name="action_save">Save item</string>
+    <string name="menu_delete_item">Delete item</string>
+    <string name="menu_delete_all_data">Delete all data</string>
+    <string name="delete">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_activity_title_new">Add an Item</string>
+    <string name="editor_activity_title_edit">Edit Item</string>
+    <string name="exception_image_load_failed">Failed to load image</string>
+    <string name="sale_button">Sale</string>
+    <string name="name_product">Product Name:</string>
+    <string name="price">Price: </string>
+    <string name="quantity">Quantity: </string>
+    <string name="supplier_name">Supplier Name: </string>
+    <string name="supplier_email">Supplier Email: </string>
+    <string name="image_product">Prduct Image: </string>
+    <string name="contact">Contact By Email?</string>
+</resources>
+
