@@ -135,7 +135,9 @@ public class Detail extends AppCompatActivity implements
     public void minus(View view) {
         countNumberString = mCountEditText.getText().toString().trim();
         countNumber = Integer.parseInt(countNumberString);
-        countNumber = countNumber - 1;
+        if (countNumber >= 1)
+            countNumber = countNumber - 1;
+        else countNumber = 0;
         mCountEditText.setText(String.valueOf(countNumber));
     }
 
